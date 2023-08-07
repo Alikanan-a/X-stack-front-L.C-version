@@ -43,7 +43,9 @@
     --aa-scrollbar-thumb-background-color-rgb: var(--aa-background-color-rgb);
     --aa-scrollbar-thumb-background-color-alpha: 1;
 }
-
+html {
+    background-color: #363459;
+}
 *{
     padding: 0;
     margin: 0;
@@ -57,21 +59,39 @@ body {
     
 }
 header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     z-index: 10;
     width: 100%;
     height: 60px;
     padding-bottom: 0.75rem;
     padding-top: 0.75rem;
-    
     margin-left: auto;
     margin-right: auto;
-
     background-color: brown;
 } 
+
+.header_title_place_Holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 1rem;
+    top: 0; */
+}
+.header_bottom_placeHolder {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 .main {
     /* position: absolute; */
     height: 100%;
     width: 70%;
+    background-image: url(../img/home-banner-illustration.svg);
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
 }
 /*=============== token detail--page  ===============*/
 .token-detail{
@@ -82,7 +102,7 @@ header{
     row-gap: 3rem;
     width: 100%;
     height: 1000px;
-    background-color:  hsl(252, 100%, 10%);
+    /* background-color:  hsl(252, 100%, 10%); */
 }
 .token--upper{
     display: flex;
@@ -136,70 +156,24 @@ header{
     align-items: center;
     row-gap: 1rem;
     box-sizing: border-box;
-
-    width: 490px;
-    height: 687px;
-    background: #110E3B;
+    border-radius: 0.934rem;
+    width: 317px;
+    height: 655.5px;
+    background: black;
     border: 1px solid #3F3C61;
     backdrop-filter: blur(12px);
-    /* Note: backdrop-filter has minimal browser support */
-    
-    border-radius: 8px;
-    
 }
-.token-chart{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    flex-direction: column;
-    width: 450px;
-    height: 89px;    
-    background: #29274F;
-    border-radius: 12px;
-    transition: 320ms;
+.token_chart_upper {
+    height: 50%;
+    background-color: #772156;
+    width: 100%;
 }
-.token-chart:hover{
-    transform: scale(1.1);
-    background: linear-gradient(272.09deg, #88295D 0%, #294B8B 100%);
+.token_chart_supper {
+    height: 50%;
+    background-color: #772156;
+    width: 100%;
 }
-.token--chart-title{
-    width: 295px;
-    height: 55px;
-    left: 134px;
-    top: 3941px;
-    
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 55px;
-    /* identical to box height, or 250% */
-    
-    letter-spacing: 0.01em;
-    
-    color: #FFFFFF;
-}
-.token--chart-span{
-    width: 279px;
-    height: 20px;
-    left: 135px;
-    top: 3879px;
-    
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height, or 125% */
-    
-    letter-spacing: 0.02em;
-    
-    color: #FFFFFF;
-    
-    
-}
+
 .token--image{
    
 }
