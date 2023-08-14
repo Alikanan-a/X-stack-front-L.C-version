@@ -56,7 +56,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    background-color:   darkslateblue;
 }
 header{
     display: flex;
@@ -69,7 +70,7 @@ header{
     padding-top: 0.75rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: brown;
+    background-color: transparent;
 } 
 
 .header_title_place_Holder {
@@ -83,6 +84,10 @@ header{
     display: flex;
     flex-direction: row-reverse;
     
+}
+.getStartted {
+    color: white;
+    background-color: skyblue;
 }
 .main {
     /* position: absolute; */
@@ -189,6 +194,99 @@ header{
 .token--image{
    
 }
+
+
+
+
+.knowledge--page {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.knowledge--page__upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.knowledge--page__upper h2 {
+    text-wrap: balance;
+    line-height: 1.25;
+    
+    font-weight: 500;
+    font-size: 2.6666rem;
+    z-index: 10;
+    color: inherit;
+    font-family: Cabin,sans-serif;
+    letter-spacing: .02rem;
+}
+.knowledge--page__upper span {
+    text-wrap: balance;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1rem;
+    vertical-align: baseline;
+    line-height: 1.5;
+    width: 650px;
+}
+.knowledge-pageSupper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1.25rem;
+}
+.knowledge-pageSupperContnetPlaceHolder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 370px;
+    height: 792px;
+    background-color: aqua;
+}
+.duoPlaceHolder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+    height: 144px;
+    background-color: #772156;
+}
+.miniKnow {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    width: 177.5px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 0.934rem;
+}
+.miniKnow img {
+    width: 116px;
+    height: 116px;
+}
+.pink-color {
+    background: linear-gradient(0deg,#8b60ed,#b372bd);
+}
+.red-color {
+    background: linear-gradient(180deg,#f44881,#ec454f);
+}
+.largKnow {
+    width: 370px;
+    height: 309px;
+    background: #f44881;
+    border-radius: 0.934rem;
+}
+.gray-color {
+    background-color: linear-gradient(90deg, white, black);
+}
+
 /*=============== questions--page  ===============*/
 .question--page{
     display: flex;
