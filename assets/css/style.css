@@ -196,6 +196,7 @@ header{
 }
 
 
+/*=============== questions--page  ===============*/
 
 
 .knowledge--page {
@@ -286,7 +287,12 @@ header{
 .gray-color {
     background-color: linear-gradient(90deg, white, black);
 }
-
+.verticalDouPlaceHolder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /*=============== questions--page  ===============*/
 .question--page{
     display: flex;
