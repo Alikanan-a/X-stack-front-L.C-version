@@ -95,6 +95,9 @@ header{
 }
 /*=============== token detail--page  ===============*/
 .token-detail{
+    background-image: url(../img/home-banner-illustration.svg);
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,6 +177,15 @@ header{
     width: 100%;
 }
 
+.border_munu {
+    background: linear-gradient(180deg,#151c26 45%,transparent 0,transparent 55%,#151c26 0);
+    border-radius: 4px;
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    width: 4px;
+}
 .token--image{
    
 }
