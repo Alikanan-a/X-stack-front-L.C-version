@@ -263,7 +263,7 @@ header{
     flex-shrink: 0;
     cursor: pointer;
     width: 177.5px;
-    height: 100%;
+    height: 144px;
     overflow: hidden;
     background-color: #FFFFFF;
     border-radius: 0.934rem;
@@ -292,6 +292,40 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    row-gap: 1.25rem;
+}
+.mediumKnow {
+    height: 144px;
+    width: 370px;
+    background-color: #16143F;
+    border-radius: 0.934rem;
+}
+#knowledge-largPlaceholeder {
+    width: 550px;
+    height: 792px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+.flexColumn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 /*=============== questions--page  ===============*/
 .question--page{
