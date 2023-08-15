@@ -14,55 +14,59 @@
     --aa-font-weight-bold: 700;
     --aa-icon-size: 20px;
     --aa-icon-stroke-width: 1.6;
-    --aa-icon-color-rgb: 119,119,163;
+    --aa-icon-color-rgb: 119, 119, 163;
     --aa-icon-color-alpha: 1;
     --aa-action-icon-size: 20px;
-    --aa-text-color-rgb: 38,38,39;
+    --aa-text-color-rgb: 38, 38, 39;
     --aa-text-color-alpha: 1;
-    --aa-primary-color-rgb: 39,121,189;
+    --aa-primary-color-rgb: 39, 121, 189;
     --aa-primary-color-alpha: 0.2;
-    --aa-muted-color-rgb: 128,126,163;
+    --aa-muted-color-rgb: 128, 126, 163;
     --aa-muted-color-alpha: 0.6;
-    --aa-panel-border-color-rgb: 128,126,163;
+    --aa-panel-border-color-rgb: 128, 126, 163;
     --aa-panel-border-color-alpha: 0.3;
-    --aa-input-border-color-rgb: 128,126,163;
+    --aa-input-border-color-rgb: 128, 126, 163;
     --aa-input-border-color-alpha: 0.8;
-    --aa-background-color-rgb: 255,255,255;
+    --aa-background-color-rgb: 255, 255, 255;
     --aa-background-color-alpha: 1;
-    --aa-input-background-color-rgb: 255,255,255;
+    --aa-input-background-color-rgb: 255, 255, 255;
     --aa-input-background-color-alpha: 1;
-    --aa-selected-color-rgb: 179,173,214;
+    --aa-selected-color-rgb: 179, 173, 214;
     --aa-selected-color-alpha: 0.205;
-    --aa-description-highlight-background-color-rgb: 245,223,77;
+    --aa-description-highlight-background-color-rgb: 245, 223, 77;
     --aa-description-highlight-background-color-alpha: 0.5;
-    --aa-overlay-color-rgb: 115,114,129;
+    --aa-overlay-color-rgb: 115, 114, 129;
     --aa-overlay-color-alpha: 0.4;
-    --aa-panel-shadow: 0 0 0 1px rgba(35,38,59,.1),0 6px 16px -4px rgba(35,38,59,.15);
+    --aa-panel-shadow: 0 0 0 1px rgba(35, 38, 59, .1), 0 6px 16px -4px rgba(35, 38, 59, .15);
     --aa-scrollbar-width: 13px;
-    --aa-scrollbar-track-background-color-rgb: 234,234,234;
+    --aa-scrollbar-track-background-color-rgb: 234, 234, 234;
     --aa-scrollbar-track-background-color-alpha: 1;
     --aa-scrollbar-thumb-background-color-rgb: var(--aa-background-color-rgb);
     --aa-scrollbar-thumb-background-color-alpha: 1;
 }
+
 /*=============== SET UP  ===============*/
 html {
     background-color: #363459;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Poppins,Helvetica,Arial,sans-serif;
-    background-color:   darkslateblue;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    background-color: darkslateblue;
 }
+
 /*=============== header ===============*/
-header{
+header {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -74,7 +78,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
-} 
+}
 
 .header_title_place_Holder {
     display: flex;
@@ -83,30 +87,38 @@ header{
     /* left: 1rem;
     top: 0; */
 }
+
 .header_bottom_placeHolder {
     display: flex;
     flex-direction: row-reverse;
-    
+
 }
+
 .getStartted {
     color: white;
     background-color: skyblue;
 }
+
 /*=============== header ===============*/
 .main {
     /* position: absolute; */
     height: 100%;
     width: 70%;
     background-image: url(../img/home-banner-illustration.svg);
-    background-position: top; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: top;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
 
 }
+
 /*=============== token detail--page  ===============*/
-.token-detail{
+.token-detail {
     background-image: url(../img/home-banner-illustration.svg);
-    background-position: top; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: top;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,13 +128,15 @@ header{
     height: 1000px;
     /* background-color:  hsl(252, 100%, 10%); */
 }
-.token--upper{
+
+.token--upper {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
 }
-.token-title{
+
+.token-title {
     width: 306px;
     height: 55px;
     font-family: sans-serif;
@@ -132,37 +146,40 @@ header{
     line-height: 55px;
     /* identical to box height, or 157% */
     letter-spacing: 0.01em;
-    
+
     color: #FFFFFF;
-    
-    
+
+
 }
-.token-span{
+
+.token-span {
     width: 710px;
     height: 27px;
     left: 445px;
     top: 3628px;
-    
+
     font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 27px;
     /* identical to box height, or 180% */
-    
+
     text-align: center;
-    
+
     color: #FFFFFF;
-    
+
 }
+
 /*=============== supper page  ===============*/
-.token--supper{
+.token--supper {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     column-gap: 15rem;
 }
-.token-charts{
+
+.token-charts {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,11 +193,13 @@ header{
     border: 1px solid #3F3C61;
     backdrop-filter: blur(12px);
 }
+
 .token_chart_upper {
     height: 50%;
     background-color: #772156;
     width: 100%;
 }
+
 .token_chart_supper {
     height: 50%;
     background-color: #772156;
@@ -188,7 +207,7 @@ header{
 }
 
 .border_munu {
-    background: linear-gradient(180deg,#151c26 45%,transparent 0,transparent 55%,#151c26 0);
+    background: linear-gradient(180deg, #151c26 45%, transparent 0, transparent 55%, #151c26 0);
     border-radius: 4px;
     display: block;
     height: 100%;
@@ -196,9 +215,8 @@ header{
     position: absolute;
     width: 4px;
 }
-.token--image{
-   
-}
+
+.token--image {}
 
 
 /*=============== knowledge--page  ===============*/
@@ -213,23 +231,26 @@ header{
     align-items: center;
     flex-direction: column;
 }
+
 #knowledge--page__upper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 #knowledge--page__upper h2 {
     text-wrap: balance;
     line-height: 1.25;
-    
     font-weight: 500;
     font-size: 2.6666rem;
     z-index: 10;
     color: inherit;
-    font-family: Cabin,sans-serif;
+    font-family: Cabin, sans-serif;
     letter-spacing: .02rem;
+    color: white;
 }
+
 #knowledge--page__upper span {
     text-wrap: balance;
     text-align: center;
@@ -238,6 +259,7 @@ header{
     vertical-align: baseline;
     line-height: 1.5;
     width: 650px;
+    color: white;
 }
 
 /*=============== knowledge--page -- supper   ===============*/
@@ -248,6 +270,7 @@ header{
     column-gap: 1.25rem;
 
 }
+
 .knowledge-pageSupperContnetPlaceHolder {
     display: flex;
     align-items: center;
@@ -256,6 +279,7 @@ header{
     width: 370px;
     height: 792px;
 }
+
 /*==== dou place holder mini  ====*/
 .duoPlaceHolder {
     display: flex;
@@ -264,6 +288,7 @@ header{
     width: 370px;
     height: 144px;
 }
+
 /*====  mini  windows  ====*/
 .miniKnow {
     align-items: center;
@@ -277,16 +302,20 @@ header{
     background-color: #FFFFFF;
     border-radius: 0.934rem;
 }
+
 .miniKnow img {
     width: 116px;
     height: 116px;
 }
+
 .pink-color {
-    background: linear-gradient(0deg,#8b60ed,#b372bd);
+    background: linear-gradient(0deg, #8b60ed, #b372bd);
 }
+
 .red-color {
-    background: linear-gradient(180deg,#f44881,#ec454f);
+    background: linear-gradient(180deg, #f44881, #ec454f);
 }
+
 /*====  large  windows  ====*/
 .largKnow {
     width: 370px;
@@ -294,9 +323,11 @@ header{
     background: #f44881;
     border-radius: 0.934rem;
 }
+
 .gray-color {
     background-color: linear-gradient(90deg, white, black);
 }
+
 /*====  medium  windows placeHolder  ====*/
 .verticalDouPlaceHolder {
     width: 100%;
@@ -306,6 +337,7 @@ header{
     flex-direction: column;
     row-gap: 1.25rem;
 }
+
 /*====  medium  windows  ====*/
 .mediumKnow {
     height: 144px;
@@ -313,6 +345,7 @@ header{
     background-color: #16143F;
     border-radius: 0.934rem;
 }
+
 /*====  large windows  placeHOLDER ====*/
 #knowledge-largPlaceholeder {
     width: 550px;
@@ -331,9 +364,11 @@ header{
     flex-direction: row;
     column-gap: 1rem;
 }
+
 .withs {
     width: 100%;
 }
+
 .flexColumn {
     display: flex;
     justify-content: space-between;
@@ -341,16 +376,19 @@ header{
     flex-direction: column;
     row-gap: 1.25rem;
 }
+
 /*=============== questions--page  ===============*/
-.question--page{
+#question--page {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 1000px;
     background-color: transparent;
+    margin-top: 5rem;
 }
-.question--container{
+
+.question--container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -359,14 +397,16 @@ header{
     height: 824px;
     background: transparent;
 }
-.question--upper{
+
+.question--upper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 1.5rem;
 }
-.question--title{
+
+.question--title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,13 +418,14 @@ header{
     font-size: 35px;
     line-height: 55px;
     /* identical to box height, or 157% */
-    
+
     letter-spacing: 0.01em;
-    
+
     color: #FFFFFF;
-    
+
 }
-.question-span{
+
+.question-span {
     text-align: center;
     text-wrap: balance;
     width: 710px;
@@ -396,24 +437,27 @@ header{
     font-size: 15px;
     line-height: 27px;
     /* identical to box height, or 180% */
-    
+
     text-align: center;
-    
+
     color: #FFFFFF;
-    
-    
+
+
 }
+
 /*=============== question--page -- supper   ===============*/
 .question--upper ul {
     display: flex;
-    width:748px;
+    width: 748px;
     height: 55px;
 }
-.question--upper li:hover{
+
+.question--upper li:hover {
     color: #FFFFFF;
-    border-bottom: 2px solid #772156 ;
+    border-bottom: 2px solid #772156;
     z-index: 10000;
 }
+
 .question--upper li {
     display: flex;
     justify-content: center;
@@ -430,15 +474,16 @@ header{
     transition: 320ms;
     color: #363459;
 }
-.question--sections{
+
+.question--sections {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    justify-content: center;
-    align-items: end;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     row-gap: .5rem;
     column-gap: 1.25rem;
 }
+
 .question--section-box {
     display: flex;
     justify-content: space-between;
@@ -455,30 +500,173 @@ header{
     column-gap: 1.25rem;
     border-radius: 1.25rem;
     transition-duration: .3s;
+
 }
+
 .question--section-box:hover {
     cursor: pointer;
     text-decoration: none;
-    transition: background-color .3s,border .3s;
+    transition: background-color .3s, border .3s;
 }
+
 .question--section-box img {
     width: 50px;
     height: 50px;
 }
+
 .question--section-box div {
     width: 100%;
 }
-.question--section-box h3{
+
+.question--section-box h3 {
     color: #FFFFFF;
     line-height: 1.25;
     font-weight: 600;
     font-size: 1.4rem;
     text-align: left;
-    font-family: Cabin,sans-serif;
+    font-family: Cabin, sans-serif;
     letter-spacing: .02rem;
 }
+
 .question--section-box i {
     font-size: .6rem;
-    font-family: Cabin,sans-serif;
+    font-family: Cabin, sans-serif;
     letter-spacing: .02rem;
+}
+
+
+#Teachers-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    width: 70%;
+    height: 2100px;
+}
+
+.Teachers-pageSupper {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 1827px;
+}
+
+.Teachers-pageSupper .techerROW {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.margin-bottom {
+    margin-top: -80px;
+}
+
+.memberCOnteiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    column-gap: 3rem;
+    height: 242px;
+    width: 403.33px;
+    border-radius: 0.934rem;
+    background-color: #110E3B;
+    position: relative;
+}
+
+.profileSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle {
+    background: linear-gradient(0deg, #f19a1a, #ffc73c);
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    top: -10px;
+    position: absolute;
+    z-index: 0;
+}
+
+.profileImgPlaceHolder {
+    background-color: yellow;
+    width: 105px;
+    height: 164px;
+    margin-top: -15px;
+    margin-left: -5px;
+    border-radius: 5rem;
+    z-index: 1000;
+}
+
+.socialMEdiaPH {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 30px;
+}
+
+.socialMediaBOTTOM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #3F3C61;
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.memberInfoPHOLDER {
+    display: flex;
+    align-items: end;
+    padding-top: 1rem ;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.memberInfoPHOLDER h2 {
+    line-height: 1.25;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: Cabin, sans-serif;
+    letter-spacing: .02rem;
+    color: white;
+}
+.memberInfoPHOLDER i {
+    font-weight: 500;
+    font-size: .8rem;
+    margin-top: 0.25rem;
+    color: skyblue;
+}
+.memberInfoPHOLDER p {
+    width: 202px;
+    font-weight: 500;
+    font-size: .8rem;
+    margin-top: 1rem;
+    text-align: right;  
+    color: white;
+}
+.achivmentPlacHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+    height: 61px;
+    /* background-color: #8b60ed; */
+    position: absolute;
+    bottom: -2rem;
+}
+.achivmentPlacHolder img {
+    height: 54px;
+    width: 54px;
 }
