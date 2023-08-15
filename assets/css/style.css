@@ -627,7 +627,7 @@ header {
 .memberInfoPHOLDER {
     display: flex;
     align-items: end;
-    padding-top: 1rem ;
+    padding-top: 1rem;
     flex-direction: column;
     height: 100%;
     width: 60%;
@@ -642,20 +642,23 @@ header {
     letter-spacing: .02rem;
     color: white;
 }
+
 .memberInfoPHOLDER i {
     font-weight: 500;
     font-size: .8rem;
     margin-top: 0.25rem;
     color: skyblue;
 }
+
 .memberInfoPHOLDER p {
     width: 202px;
     font-weight: 500;
     font-size: .8rem;
     margin-top: 1rem;
-    text-align: right;  
+    text-align: right;
     color: white;
 }
+
 .achivmentPlacHolder {
     display: flex;
     flex-direction: row;
@@ -667,46 +670,139 @@ header {
     position: absolute;
     bottom: -2rem;
 }
+
 .achivmentPlacHolder img {
     height: 54px;
     width: 54px;
 }
 
 
-#Produced-page  {
+#Produced-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 1rem;
+    height: 1000px;
     margin-top: 10rem;
+}
+.Produced-page-supper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 .Produced-page-contentPlaceH {
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     height: 420px;
     width: 1166px;
-    background-color: #f19a1a;
+    background-color: #110E3B;
     border-radius: 0.934rem;
     overflow: hidden;
 }
+
 .rightIMG {
     position: relative;
 }
+
 .rightIMG img {
     position: absolute;
     width: 420px;
     height: 418px;
-    margin-left: -180px;
+    margin-left: -200px;
+    margin-top: -210px;
 }
+
 .content-product-placeholder {
     width: 490px;
     height: 367px;
     background-color: #110E3B;
 }
+
 .procteLeftIMG {
     width: 280px;
     height: 390px;
-  
+    margin-left: 5rem;
 }
+
 .procteLeftIMG img {
     height: 100%;
     width: 100%;
     border-radius: 0.934rem;
+}
+
+.content-product-placeholder {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-direction: column;
+    margin-left: 15rem;
+}
+
+.content-product-placeholder h2 {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 500;
+    font-family: Cabin, sans-serif;
+    letter-spacing: .02rem;
+    color: white;
+}
+
+.content-product-placeholder p {
+    text-align: end;
+    font-size: .867rem;
+    line-height: 1.7;
+    color: white;
+}
+.content-product-placeholder-lower{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bottonPlaceHolder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.moreInfoProcuct {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 2rem;   
+    padding: 1rem 0 1rem 1rem ; 
+}
+.moreInfoProcuct div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    column-gap: .5rem;
+    font-size: .6666rem;
+    color: white;
+}
+.content-product-placeholder-lower button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(50,138,241,.1);  
+    width: 203px;
+    height: 40px;
+    background-clip: padding-box;
+    border-color: transparent;
+    border-radius: 16px;
+    border-width: 1px;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .2px;
+    line-height: 1.15;
+    position: relative;
+    text-align: center;
+    color: white;
 }
