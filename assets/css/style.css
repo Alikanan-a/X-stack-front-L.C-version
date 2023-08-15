@@ -557,6 +557,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    row-gap: 5rem;
 }
 
 .margin-bottom {
@@ -669,4 +670,43 @@ header {
 .achivmentPlacHolder img {
     height: 54px;
     width: 54px;
+}
+
+
+#Produced-page  {
+    margin-top: 10rem;
+}
+.Produced-page-contentPlaceH {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 420px;
+    width: 1166px;
+    background-color: #f19a1a;
+    border-radius: 0.934rem;
+    overflow: hidden;
+}
+.rightIMG {
+    position: relative;
+}
+.rightIMG img {
+    position: absolute;
+    width: 420px;
+    height: 418px;
+    margin-left: -180px;
+}
+.content-product-placeholder {
+    width: 490px;
+    height: 367px;
+    background-color: #110E3B;
+}
+.procteLeftIMG {
+    width: 280px;
+    height: 390px;
+  
+}
+.procteLeftIMG img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.934rem;
 }
