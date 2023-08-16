@@ -320,6 +320,7 @@ h1 span {
 .miniKnow img {
     width: 116px;
     height: 116px;
+    border-radius: 50%;
 }
 
 .pink-color {
@@ -357,6 +358,7 @@ h1 span {
     position: relative;
     overflow: hidden;
 }
+
 .centerDIV {
     margin-left: 2rem;
     margin-bottom: 1.5rem;
@@ -365,6 +367,7 @@ h1 span {
     align-items: center;
     flex-direction: column;
 }
+
 .largKnowRihgt p {
     font-weight: 600;
     font-size: .6666rem;
@@ -374,24 +377,28 @@ h1 span {
     text-align: center;
     color: white;
 }
+
 .dificalityPlaceHolder {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 5px;
 }
+
 .dificality {
     width: 20px;
     height: 4px;
     background-color: white;
     border-radius: 1rem;
 }
+
 .dificalityPlaceHolder {}
 
 .largKnowRihgt img {
     width: 240px;
     height: 240px;
     position: absolute;
+    border-radius: 50%;
     top: -10px;
     right: -120px;
 }
@@ -481,6 +488,33 @@ h1 span {
     width: 370px;
     background-color: #16143F;
     border-radius: 0.934rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.mediumKnowPlaceHolder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.mediumKnow h3 {
+    margin-top: 1rem;
+    line-height: 1.25;
+    align-items: center;
+    height: 3rem;
+    letter-spacing: -.02em;
+    font-weight: 600;
+    font-size: 1.33333rem;
+    color: white;
+}
+
+.mediumKnow img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
 }
 
 /*====  large windows  placeHOLDER ====*/
