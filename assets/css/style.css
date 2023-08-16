@@ -171,6 +171,20 @@ header {
 
 }
 
+h1 {
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px;
+    line-height: 1.25;
+    font-size: 72px;
+    text-align: right;
+    font-weight: 700;
+    width: 675px;
+    height: 270px;
+}
+
+h1 span {
+    color: #617efe;
+}
+
 /*=============== supper page  ===============*/
 .token--supper {
     display: flex;
@@ -322,6 +336,129 @@ header {
     height: 309px;
     background: #f44881;
     border-radius: 0.934rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* flex-direction: row; */
+    overflow: hidden;
+}
+
+.largKnow:hover .largKnowLeft button {
+    transform: translateY(-.8rem);
+}
+
+.largKnowRihgt {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 126px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.centerDIV {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.largKnowRihgt p {
+    font-weight: 600;
+    font-size: .6666rem;
+    margin-bottom: 0.5rem;
+    width: 56px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+.dificalityPlaceHolder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+}
+.dificality {
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    border-radius: 1rem;
+}
+.dificalityPlaceHolder {}
+
+.largKnowRihgt img {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: -10px;
+    right: -120px;
+}
+
+.largKnowLeft {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: end;
+    flex-direction: column;
+    width: 230px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    justify-content: space-around;
+    row-gap: 2rem;
+    position: relative;
+}
+
+.largKnowLeft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    list-style: none;
+    background-color: white;
+    width: 203px;
+    height: 40px;
+    background-clip: padding-box;
+    border-color: transparent;
+    border-radius: 16px;
+    border-width: 1px;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .2px;
+    line-height: 1.15;
+    position: relative;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 1.1rem;
+    transform: translateY(5rem);
+    transition: .3s ease;
+    color: black;
+    font-size: .7rem;
+}
+
+.largKnowLeft h3 {
+    width: 214px;
+    text-align: right;
+    height: 3rem;
+    line-height: 1.25;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: Cabin, sans-serif;
+    letter-spacing: .02rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+.largKnowLeft p {
+    text-align: right;
+    line-height: 1.5;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    -webkit-line-clamp: 5;
+    font-weight: inherit;
+    color: white;
+    font-size: .8rem;
 }
 
 .gray-color {
@@ -686,6 +823,7 @@ header {
     height: 1000px;
     margin-top: 10rem;
 }
+
 .Produced-page-supper {
     display: flex;
     align-items: center;
@@ -693,6 +831,7 @@ header {
     flex-direction: column;
     row-gap: 1rem;
 }
+
 .Produced-page-contentPlaceH {
     display: flex;
     align-items: center;
@@ -758,25 +897,29 @@ header {
     line-height: 1.7;
     color: white;
 }
-.content-product-placeholder-lower{
+
+.content-product-placeholder-lower {
     display: flex;
     align-items: end;
     justify-content: space-between;
     flex-direction: column;
 }
+
 .bottonPlaceHolder {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
+
 .moreInfoProcuct {
     display: flex;
     align-items: center;
     flex-direction: row;
-    column-gap: 2rem;   
-    padding: 1rem 0 1rem 1rem ; 
+    column-gap: 2rem;
+    padding: 1rem 0 1rem 1rem;
 }
+
 .moreInfoProcuct div {
     display: flex;
     justify-content: space-between;
@@ -786,12 +929,13 @@ header {
     font-size: .6666rem;
     color: white;
 }
+
 .content-product-placeholder-lower button {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    background-color: rgba(50,138,241,.1);  
+    background-color: rgba(50, 138, 241, .1);
     width: 203px;
     height: 40px;
     background-clip: padding-box;
@@ -805,4 +949,24 @@ header {
     position: relative;
     text-align: center;
     color: white;
+}
+
+
+#flower-page {}
+
+#flower-page h2 {
+    text-wrap: balance;
+    line-height: 1.25;
+    font-weight: 500;
+    font-size: 2.6666rem;
+    font-family: Cabin, sans-serif;
+    letter-spacing: .02rem;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#flower-page h2 span {
+    color: #617efe;
 }
