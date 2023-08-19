@@ -1,0 +1,135 @@
+$color_1: #FFFFFF;
+$color_2: #363459;
+$font-family_1: sans-serif;
+$font-family_2: Cabin, sans-serif;
+$background-color_1: transparent;
+$background-color_2: #110E3B;
+
+/*=============== questions--page  ===============*/
+/*=============== question--page -- supper   ===============*/
+#question--page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 1000px;
+	background-color: $background-color_1;
+	margin-top: 5rem;
+}
+.question--container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 824px;
+	background: transparent;
+}
+.question--upper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1.5rem;
+	ul {
+		display: flex;
+		width: 748px;
+		height: 55px;
+	}
+	li {
+		&:hover {
+			color: $color_1;
+			border-bottom: 2px solid #772156;
+			z-index: 10000;
+		}
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 150px;
+		font-family: $font-family_1;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 55px;
+		border-bottom: 2px solid #16143F;
+		letter-spacing: -0.02em;
+		transition: 320ms;
+		color: $color_2;
+	}
+}
+.question--title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 358px;
+	height: 55px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 55px;
+	letter-spacing: 0.01em;
+	color: $color_1;
+}
+.question-span {
+	text-align: center;
+	text-wrap: balance;
+	width: 710px;
+	height: 45px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 27px;
+	text-align: center;
+	color: $color_1;
+}
+.question--sections {
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+	row-gap: .5rem;
+	column-gap: 1.25rem;
+}
+.question--section-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	padding-bottom: 0.25rem;
+	padding-top: 0.25rem;
+	height: 84px;
+	min-width: 210px;
+	background-color: $background-color_2;
+	column-gap: 1.25rem;
+	border-radius: 1.25rem;
+	transition-duration: .3s;
+	&:hover {
+		cursor: pointer;
+		text-decoration: none;
+		transition: background-color .3s, border .3s;
+	}
+	img {
+		width: 50px;
+		height: 50px;
+	}
+	div {
+		width: 100%;
+	}
+	h3 {
+		color: $color_1;
+		line-height: 1.25;
+		font-weight: 600;
+		font-size: 1.4rem;
+		text-align: left;
+		font-family: $font-family_2;
+		letter-spacing: .02rem;
+	}
+	i {
+		font-size: .6rem;
+		font-family: $font-family_2;
+		letter-spacing: .02rem;
+	}
+}
